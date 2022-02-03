@@ -926,7 +926,7 @@ function setStatus(status) {
 			adapter.setState('enigma2.EVENTREMAINING', "", true);
 			adapter.setState('enigma2.MESSAGE_ANSWER', "", true);
 			adapter.setState('enigma2.MODEL', "", true);
-			adapter.setState('enigma2.MUTED', false);
+			adapter.setState('enigma2.MUTED', false, true);
 			adapter.setState('enigma2.NETWORK', "", true);
 			adapter.setState('enigma2.PROGRAMM', "", true);
 			adapter.setState('enigma2.PROGRAMM_AFTER', "", true);
