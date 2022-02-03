@@ -917,25 +917,25 @@ function setStatus(status) {
 			adapter.setState('enigma2-CONNECTION', false, true);
 			adapter.setState('enigma2.isRecording', false, true);
 			// Werte aus Adapter loeschen
-			adapter.setState('enigma2.BOX_IP', "");
-			adapter.setState('enigma2.CHANNEL', "");
-			adapter.setState('enigma2.CHANNEL_PICON', "");
-			adapter.setState('enigma2.CHANNEL_SERVICEREFERENCE', "");
-			adapter.setState('enigma2.EVENTDESCRIPTION', "");
-			adapter.setState('enigma2.EVENTDURATION', "");
-			adapter.setState('enigma2.EVENTREMAINING', "");
-			adapter.setState('enigma2.MESSAGE_ANSWER', "");
-			adapter.setState('enigma2.MODEL', "");
-			adapter.setState('enigma2.MUTED', "");
-			adapter.setState('enigma2.NETWORK', "");
-			adapter.setState('enigma2.PROGRAMM', "");
-			adapter.setState('enigma2.PROGRAMM_AFTER', "");
-			adapter.setState('enigma2.PROGRAMM_AFTER_INFO', "");
-			adapter.setState('enigma2.PROGRAMM_INFO', "");
+			adapter.setState('enigma2.BOX_IP', "", true);
+			adapter.setState('enigma2.CHANNEL', "", true);
+			adapter.setState('enigma2.CHANNEL_PICON', "", true);
+			adapter.setState('enigma2.CHANNEL_SERVICEREFERENCE', "", true);
+			adapter.setState('enigma2.EVENTDESCRIPTION', "", true);
+			adapter.setState('enigma2.EVENTDURATION', "", true);
+			adapter.setState('enigma2.EVENTREMAINING', "", true);
+			adapter.setState('enigma2.MESSAGE_ANSWER', "", true);
+			adapter.setState('enigma2.MODEL', "", true);
+			adapter.setState('enigma2.MUTED', false);
+			adapter.setState('enigma2.NETWORK', "", true);
+			adapter.setState('enigma2.PROGRAMM', "", true);
+			adapter.setState('enigma2.PROGRAMM_AFTER', "", true);
+			adapter.setState('enigma2.PROGRAMM_AFTER_INFO', "", true);
+			adapter.setState('enigma2.PROGRAMM_INFO', "", true);
 			adapter.setState('enigma2.STANDBY', true, true);
-			adapter.setState('enigma2.VOLUME', "");
-			adapter.setState('enigma2.WEB_IF_VERSION', "");
-			adapter.setState('Message.MESSAGE_ANSWER', false, true);
+			adapter.setState('enigma2.VOLUME', 0, true);
+			adapter.setState('enigma2.WEB_IF_VERSION', "", true);
+			// adapter.setState('Message.MESSAGE_ANSWER', false, true);
 			//...
 		}
 	}
